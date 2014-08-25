@@ -1,4 +1,0 @@
-August
-======
-
-Web Standards Project
