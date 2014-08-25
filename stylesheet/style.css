@@ -1,7 +1,9 @@
 
 @font-face {
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	src: http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz;
+	font-family: ‘Metrophobic’, Arial, serif; 
+	font-weight: 400; 
+	color: #000;
 }
 
 img {
@@ -9,17 +11,19 @@ img {
 	float: right;
 }
 
+h1 h2 h3 h4 h5 h6 {
+	color: #000;
+	
+}
 header {
 	height:150px;
 	border:1px solid #baaea0;
 	border-bottom: 10px solid #000000;
 }
 
-ul {
+nav {
     list-style-type: none;
     background: #baaea0;
-    margin-top: 50px;
-    padding-top: 50px;
 }
 
 li {
@@ -34,12 +38,18 @@ a {
     text-decoration: none;
 }
 
+nav {
+	width: 960px;
+}
+
 /* unvisited link */
 nav a:link {
     background-color: #baaea0;
     width: 10em;
     height: 20px;
     padding: 3px;
+    color: #000;
+
 }
 
 /* visited link */
@@ -48,6 +58,7 @@ nav a:visited {
     width: 10em;
     height: 20px;
     padding: 3px;
+    color: #000;
 }
 
 /* mouse over link */
@@ -56,6 +67,7 @@ nav a:hover {
     width: 10em;
     height: 20px;
     padding: 3px;
+    color: #000;
 }
 
 /* selected link */
@@ -64,18 +76,18 @@ nav a:active {
     width: 10em;
     height: 20px;
     padding: 3px;
+    color: #000;
 }
 
 body {
-	margin:0px;
-	background:#fff;
-	width:960px;
-	border: 1px solid #CCC;
-	height: 2000px;
-	margin: 20px auto;
-	padding: 5em;
+
 }
 
 article {
-	width: 10em;
+	background-color: #000;
+	width: 1em;
+}
+
+footer ul li{
+	width: 300px;
 }
