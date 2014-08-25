@@ -1,33 +1,81 @@
 
 @font-face {
-
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 
-.h1 .h2 .h3 .h4 .h5 .h6 {
-	background: e1e1e1;
-	border: 1px solid #000;
-	width: 960px;
-
+img {
+	width: 200px;
+	float: right;
 }
 
-.header {
-	height:50px;
-	background:#e1e1e1;
-	border:1px solid #CCC;
-	width:960px;
-	margin:0px auto;
+header {
+	height:150px;
+	border:1px solid #baaea0;
+	border-bottom: 10px solid #000000;
 }
 
-.body {
+ul {
+    list-style-type: none;
+    background: #baaea0;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+li {
+    float: left;
+    width: 10em;
+    text-align: center;
+}
+
+a {
+    display: block;
+    width: 60px;
+    text-decoration: none;
+}
+
+/* unvisited link */
+nav a:link {
+    background-color: #baaea0;
+    width: 10em;
+    height: 20px;
+    padding: 3px;
+}
+
+/* visited link */
+nav a:visited {
+    background-color: #baaea0;
+    width: 10em;
+    height: 20px;
+    padding: 3px;
+}
+
+/* mouse over link */
+nav a:hover {
+    background-color: #baaea0;
+    width: 10em;
+    height: 20px;
+    padding: 3px;
+}
+
+/* selected link */
+nav a:active {
+    background-color: #e1e1e1;
+    width: 10em;
+    height: 20px;
+    padding: 3px;
+}
+
+body {
 	margin:0px;
-	background:#000;
-}
-
-
-.content {
+	background:#fff;
 	width:960px;
-	background: #F0F0F0;
 	border: 1px solid #CCC;
 	height: 2000px;
 	margin: 20px auto;
+	padding: 5em;
+}
+
+article {
+	width: 10em;
 }
